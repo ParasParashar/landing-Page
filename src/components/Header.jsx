@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -14,20 +15,8 @@ const Header = () => {
           About us
         </a>
 
-        <a
-          className="hover:text-gray-600"
-          href="https://www.dunagiri.com/accomodations"
-          target="_blank"
-        >
-          Pricing
-        </a>
-        <a
-          className="hover:text-gray-600"
-          href="https://www.dunagiri.com/gallery"
-          target="_blank"
-        >
-          Gallery
-        </a>
+        <Link to={"/"}>Home</Link>
+        <Link to="/products">products</Link>
       </div>
     </header>
   );
