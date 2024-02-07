@@ -9,6 +9,7 @@ function App() {
       <Hero />
 
       <h1>Goutam Bhati</h1>
+      <h1>Group Porject</h1>
     </div>
   );
 }
