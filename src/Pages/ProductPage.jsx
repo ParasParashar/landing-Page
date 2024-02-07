@@ -1,6 +1,7 @@
 import React from "react";
 import Products from "../components/Products";
 import Header from "../components/Header";
+import Cart from "../components/Cart";
 
 const ProductPage = () => {
   return (
@@ -8,6 +9,7 @@ const ProductPage = () => {
       <Header />
       <div className="p-20">
         <Products />
+        <Cart />
       </div>
     </div>
   );
