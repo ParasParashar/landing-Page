@@ -35,6 +35,7 @@ const Products = () => {
               {item.price}$
             </span>
           </h4>
+          <button>TExt byy</button>
         </div>
       ))}
     </div>
